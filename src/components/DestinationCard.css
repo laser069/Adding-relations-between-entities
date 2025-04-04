@@ -1,0 +1,49 @@
+
+
+.destination-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: transform 0.2s ease;
+    flex: 0 1 300px;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .destination-card-content {
+    padding: 15px;
+  }
+  
+  .destination-card p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .destination-card .location {
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .destination-card .description {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .destination-card .price {
+    font-weight: bold;
+    color: #e91e63;
+  }
+  
